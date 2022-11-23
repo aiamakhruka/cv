@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my contact</title>
+</head>
+<body>
+    <h3>my contact :</h3>
+    <h4><strong><a href="aia.makhruka@gmail.com">my email</a></strong></h4>
+
+    <!-- "action" sends you to a diffrent page when you submit  through the method post   "enctype="text/plain"" means 
+    the page that we are going to in our case mail page will be empty of the weird symbols -->
+    <form action="mailto:aia.makhruka@gmail.com" method="post" enctype="text/plain">
+<!-- we have diffrent types of imputs :-->
+        <label for="">Your name</label>              <!-- br means break line to make a new line -->
+        <input type="text" name="Yourname" id=""><br>
+        <label for="">your email</label>
+        <input type="email" name="Youremail" id=""><br>
+        <textarea name="YourMessage" id="" cols="30" rows="10"></textarea><br>
+        <label for="">password</label><br>
+        <input type="password" name="password" id="">
+        <input type="submit" name=""><br>
+
+
+    </form>
+</body>
+</html>
